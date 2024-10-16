@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/WS101-CANEZA-NAVBAR/static/css/main.51000650.css",
+    "main.js": "/WS101-CANEZA-NAVBAR/static/js/main.75c5f949.js",
+    "index.html": "/WS101-CANEZA-NAVBAR/index.html",
+    "main.51000650.css.map": "/WS101-CANEZA-NAVBAR/static/css/main.51000650.css.map",
+    "main.75c5f949.js.map": "/WS101-CANEZA-NAVBAR/static/js/main.75c5f949.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51000650.css",
+    "static/js/main.75c5f949.js"
+  ]
+}
