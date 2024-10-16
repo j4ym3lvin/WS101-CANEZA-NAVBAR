@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+* { 
+  box-sizing: border-box; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body { 
+  background-color: #A8E6CF; /* Mint Green background */
+  color: #000000; /* Charcoal Gray text */
+  margin: 0; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container { 
+  margin: 1rem; 
+  text-align: center; 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav { 
+  background: linear-gradient(90deg, #00A8E1, #00e1ff); /* Gradient from Sky Blue to Soft Coral */
+  color: rgb(8, 8, 8); 
+  display: flex; 
+  justify-content: space-between; 
+  align-items: stretch; 
+  gap: 2rem; 
+  padding: 0 1rem; 
 }
 
-.App-link {
-  color: #61dafb;
+.site-title { 
+  font-size: 2rem; 
+  color: #FF6F61; /* Soft Coral for site title */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav ul { 
+  padding: 0; 
+  margin: 0; 
+  list-style: none; 
+  display: flex; 
+  gap: 1rem; 
+}
+
+.nav a { 
+  color: inherit; 
+  text-decoration: none; 
+  height: 100%; 
+  display: flex; 
+  align-items: center; 
+  padding: .25rem; 
+}
+
+.nav li.active { 
+  background-color: #F9D56A; /* Lemon Yellow for active link */
+}
+
+.nav li:hover { 
+  background-color: #ffffff; /* Lavender for hover state */
 }
